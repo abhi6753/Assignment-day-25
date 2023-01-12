@@ -36,6 +36,7 @@ int main()
     cout<<"Enter number to get its square :"<<endl;
     cin>>x;
     s.setS(x);
+    s.calculateArea();
     cout<<"Square of "<<s.getS()<<" is "<<s.getArea()<<endl;
     for(int i=0;i<5;i++)
     {
